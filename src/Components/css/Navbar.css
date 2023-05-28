@@ -1,0 +1,68 @@
+*{
+    border: 1px solid transparent;
+}
+body{
+    /* position: fixed !important; */
+}
+/* THE MAIN CONTAINER OF HEADER */
+#header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/Components/assets/tabletguy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.navbar{
+    position: absolute;
+}
+
+
+.searchf{
+    border: none !important ;
+    border-bottom: 1px solid white !important;
+    outline: none !important;
+    width: max-content !important;
+    color: white;
+}
+#search{
+    border:none;
+    outline: none;
+    width: 150px;
+}
+#search::placeholder{
+   color: white;
+}
+.dropdown-menu{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.402);
+}
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+}
+#home1{
+    color: white;
+}
+#homeflex {
+    margin-top: 200px;
+    margin-left: 10px;
+    color: white;
+    width: max-content;
+    padding: 10px 20px;
+    display: flex;
+    
+    justify-content: center !important;
+    gap: 0px !important;
+}
+#homeflex div h1, #homeflex div h1 span{
+   font-size: 50px !important ;
+   font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+}
+@media screen and (max-width:991px) {
+    .navbar-nav a{
+        text-align: center;
+    }
+    .searchf{
+        margin: auto !important;
+    }
+
+}
