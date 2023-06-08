@@ -3,11 +3,8 @@ import './css/Navbar.css'
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-<<<<<<< HEAD
   
 
-=======
->>>>>>> 24d11198fbf19ebb14308b5a76a3ea2ae2d64f78
   return (
     
       <nav className="navbar navbar-expand-lg bg-* fw-bolder fixed-top">
@@ -21,17 +18,11 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fw-normal text-light">
         <li className="nav-item">
-<<<<<<< HEAD
           <Link className="nav-link mx-5 text-light" aria-current="page" to="./Navbar.js">Home</Link>
         </li>
-        <li className="nav-item dropdown">
-          <a  className="nav-link text-light mx-5 dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-=======
-          <Link className="nav-link mx-5 text-light" aria-current="page" to="/">Home</Link>
-        </li>
+       
         <li className="nav-item dropdown">
           <a className="nav-link text-light mx-5 dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
->>>>>>> 24d11198fbf19ebb14308b5a76a3ea2ae2d64f78
             Blog
           </a>
           <ul className="dropdown-menu mx-5 " aria-labelledby="navbarDropdown">
