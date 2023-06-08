@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Navbar.css'
+<<<<<<< HEAD
 import svg from './assets/arrowdown.svg'
 import sports from './assets/sports.jpg'
 import funnel from './assets/funnel.jpg'
@@ -45,6 +46,19 @@ const Home = () => {
 
     </>
 
+=======
+
+const Home = () => {
+  return (
+    <div className="" id='header'>
+        <div className='d-flex flex-column' id='homeflex'>
+        <div><h1> <span className='text-warning'>Find </span> a vast range</h1></div>
+        <div><h1>of blogs on</h1></div>
+        <div className='text-primary'><h1>BlogVerse</h1></div>
+
+        </div>
+    </div>
+>>>>>>> 24d11198fbf19ebb14308b5a76a3ea2ae2d64f78
   )
 }
 
