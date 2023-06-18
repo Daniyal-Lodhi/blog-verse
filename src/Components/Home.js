@@ -116,7 +116,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="col-md-4 d-flex" >
-              <div className={`blog-entry justify-content-end bg-${bgcolor} text-${textcolor}`} data-aos="fade-right" data-aos-delay="400" data-aos-duration="500" >
+              <div className={`blog-entry justify-content-end bg-${bgcolor} text-${textcolor}`} data-aos="fade-right" data-aos-delay="800" data-aos-duration="500" >
                 <a href="/" className="block-20 rounded-3 " style={{ backgroundImage: `url(${funnel})` }}>
                 </a>
                 <div className="text mt-3 float-right d-block">
@@ -133,7 +133,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="col-md-4 d-flex" >
-              <div className={`blog-entry justify-content-end bg-${bgcolor} text-${textcolor}`} data-aos="fade-right" data-aos-delay="400" data-aos-duration="500" >
+              <div className={`blog-entry justify-content-end bg-${bgcolor} text-${textcolor}`} data-aos="fade-right" data-aos-delay="1200" data-aos-duration="500" >
                 <a href="/" className="block-20 rounded-3 " style={{ backgroundImage: `url(${food})` }}>
                 </a>
                 <div className="text mt-3 float-right d-block">

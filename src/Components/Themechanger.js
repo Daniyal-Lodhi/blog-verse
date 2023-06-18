@@ -6,7 +6,7 @@ const Themechanger = () => {
     const {themetype,setthemetype,handleThemeType} = context ;
     return (
         <div id='themechanger' onClick={handleThemeType} >
-            <i class={`gg-${themetype}`} ></i>
+            <i className={`gg-${themetype}`} ></i>
         </div>
     )
 }

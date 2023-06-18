@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react'
+import React, { useState } from 'react'
 import './css/Home.css'
 import { Link, useNavigate } from "react-router-dom";
 
@@ -26,20 +26,8 @@ const Navbar = (props) => {
     navigate('/');
   }
 
-  // CREATING CONTEXT FOR DARK THEME
-
-  const Themecontext = createContext();
 
 
-  <Themecontext.Provider value={{}} >
-   {props.children}
-  </Themecontext.Provider>
-
-
-  
-  
-
-  
   return (
     
       <nav className={`navbar navbar-expand-lg bg-${navBg} fw-bolder fixed-top my-0 `}>
@@ -60,7 +48,7 @@ const Navbar = (props) => {
             Blog
           </a>
           <ul className="dropdown-menu mx-5 " aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item " href="#">Recent</a></li>
+            <li><Link className="dropdown-item " to="/Blog/recent">Recent</Link></li>
             <li><a className="dropdown-item" href="#">Famous</a></li>
           </ul>
         </li>   

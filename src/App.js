@@ -11,6 +11,8 @@ import contactUsbg from './Components/assets/contactbg.jpg';
 import Mountainbgpic from './Components/assets/bg5.jpg';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Themechanger from './Components/Themechanger';
+import BlogComponent from './Components/BlogComponent';
+import Blog from './Components/Blog';
 
 
 const ThemeContext = createContext();
@@ -68,6 +70,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/contact' element={<Contact />} />
+            <Route exact path='/Blog/recent' element={<Blog />} />
           </Routes>
           <Footer />
         </Router>
