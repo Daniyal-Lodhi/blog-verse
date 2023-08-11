@@ -25,10 +25,10 @@ const About = () => {
                         <h5>Alex Robin</h5>
                         <span className="text-primary">Founder & CEO</span>
                         <ul className="team-social">
-                            <li><a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-linkedin-in"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-twitter"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-instagram"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,10 +38,10 @@ const About = () => {
                         <h5>Adam Crew</h5>
                         <span className="text-primary">Co Founder</span>
                         <ul className="team-social">
-                            <li><a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-linkedin-in"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-twitter"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-instagram"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,10 +52,10 @@ const About = () => {
                         <h5>Robert Jordan</h5>
                         <span className="text-primary">Digital Marketer</span>
                         <ul className="team-social">
-                            <li><a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a></li>
-                            <li><a className="btn btn-square" href=""><i className="fab fa-linkedin-in"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-twitter"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-instagram"></i></a></li>
+                            <li><a className="btn btn-square" href="/"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const About = () => {
         </div>
     </div>
     {/* <!-- Team End --> */}
-    </>
+    </> 
   )
 }
 

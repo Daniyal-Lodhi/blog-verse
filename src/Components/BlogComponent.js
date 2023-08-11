@@ -3,7 +3,7 @@ import funnel from './assets/funnel.jpg'
 
 const BlogComponent = () => {
   return (
-    <>
+    <> 
       <div className="container my-5 py-5 ">
         <div className="card rounded-0 shadow" style={{ width: '18rem' }}>
           <img src={funnel} className="card-img-top rounded-0" alt="..." />
