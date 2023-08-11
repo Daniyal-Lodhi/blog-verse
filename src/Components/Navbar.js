@@ -22,7 +22,6 @@ const Navbar = (props) => {
   //  SCROLLING DOWN TO ABOUT
   const navigate = useNavigate();
   const  navabout =  ()=>{
-    let aboutbtn = document.getElementById('about1');
     navigate('/');
   }
 
@@ -44,7 +43,7 @@ const Navbar = (props) => {
     
       <nav className={`navbar navbar-expand-lg bg-${navBg} fw-bolder fixed-top my-0 `}>
   <div className="container-fluid fw-bold">
-    <a className="navbar-brand text-light" href="#"><h2>Blog<span className='text-warning'>Verse</span></h2></a>
+    <a className="navbar-brand text-light" href="/"><h2>Blog<span className='text-warning'>Verse</span></h2></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" className="bi bi-list" viewBox="0 0 16 16">
   <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -56,12 +55,12 @@ const Navbar = (props) => {
           <Link className="nav-link mx-5 text-light" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link text-light mx-5 dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link text-light mx-5 dropdown-toggle " href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Blog
           </a>
           <ul className="dropdown-menu mx-5 " aria-labelledby="navbarDropdown">
             <li><Link className="dropdown-item " to="/Blog/recent">Recent</Link></li>
-            <li><a className="dropdown-item" href="#">Famous</a></li>
+            <li><a className="dropdown-item" href="/">Famous</a></li>
           </ul>
         </li>   
         <li className="nav-item">

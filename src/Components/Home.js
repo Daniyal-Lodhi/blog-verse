@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useRef, useState } from 'react'
+import React, {  useContext, useEffect} from 'react'
 
 import './css/Home.css'
 import AOS from "aos";
@@ -29,12 +29,7 @@ const Home = (props) => {
     backgroundPosition: 'center',
     position: 'relative',
   };
-  // categories
-  const categStyle = {
-    backgroundColor: textcolor === 'dark' ? 'white' : `rgb(25,25,25)`,
-    backgroundSize: 'cover',
-    color: 'white',
-  }
+ 
   // feature blg 
   const ftstyle = {
 
@@ -106,8 +101,8 @@ const Home = (props) => {
                   <div className="d-flex align-items-center mb-3 meta">
                     <p className="mb-0">
                       <span className={` mr-2 text-${textcolor}`}>June 21, 2019</span>
-                      <a href="#" className={` mr-2 text-${textcolor}`}> by <i>Admin</i> </a>
-                      <a href="#" className="meta-chat"><span className="icon-chat"></span></a>
+                      <a href="/" className={` mr-2 text-${textcolor}`}> by <i>Admin</i> </a>
+                      <a href="/" className="meta-chat"><span className="icon-chat"></span></a>
                     </p>
                   </div>
                   <h3 className={`heading`}><a href="/" className={` text-${textcolor}`}>Why Lead Generation is Key for Business Growth</a></h3>
@@ -123,8 +118,8 @@ const Home = (props) => {
                   <div className="d-flex align-items-center mb-3 meta">
                     <p className="mb-0">
                       <span className={` mr-2 text-${textcolor}`}>June 21, 2019</span>
-                      <a href="#" className={` mr-2 text-${textcolor}`}> by <i>Admin</i> </a>
-                      <a href="#" className="meta-chat"><span className="icon-chat"></span></a>
+                      <a href="/" className={` mr-2 text-${textcolor}`}> by <i>Admin</i> </a>
+                      <a href="/" className="meta-chat"><span className="icon-chat"></span></a>
                     </p>
                   </div>
                   <h3 className={`heading`}><a href="/" className={` text-${textcolor}`}>Why Lead Generation is Key for Business Growth</a></h3>
@@ -140,8 +135,8 @@ const Home = (props) => {
                   <div className="d-flex align-items-center mb-3 meta">
                     <p className="mb-0">
                       <span className={` mr-2 text-${textcolor}`}>June 21, 2019</span>
-                      <a href="#" className={` mr-2 text-${textcolor}`}> by <i>Admin</i> </a>
-                      <a href="#" className="meta-chat"><span className="icon-chat"></span></a>
+                      <a href="/" className={` mr-2 text-${textcolor}`}> by <i>Admin</i> </a>
+                      <a href="/" className="meta-chat"><span className="icon-chat"></span></a>
                     </p>
                   </div>
                   <h3 className={`heading`}><a href="/" className={` text-${textcolor}`}>Why Lead Generation is Key for Business Growth</a></h3>

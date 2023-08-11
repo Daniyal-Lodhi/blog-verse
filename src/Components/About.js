@@ -1,4 +1,4 @@
-import React, { createContext, useContext } from 'react' ;
+import React, {useContext } from 'react' ;
 import './css/style.css'
 import team1 from './assets/team-1.jpg'
 import team2 from './assets/team-2.jpg'

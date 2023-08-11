@@ -11,7 +11,6 @@ import contactUsbg from './Components/assets/contactbg.jpg';
 import Mountainbgpic from './Components/assets/bg5.jpg';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Themechanger from './Components/Themechanger';
-import BlogComponent from './Components/BlogComponent';
 import Blog from './Components/Blog';
 
 

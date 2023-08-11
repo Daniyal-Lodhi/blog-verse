@@ -15,23 +15,23 @@ const Footer = () => {
                     <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                     <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
                     <div className="d-flex pt-3">
-                        <a className="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                className="fab fa-twitter"></i></a>
-                        <a className="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                className="fab fa-youtube"></i></a>
-                        <a className="btn btn-square btn-light rounded-circle me-2" href=""><i
-                                className="fab fa-linkedin-in"></i></a>
+                        <p className="btn btn-square btn-light rounded-circle me-2"><i
+                                className="fab fa-twitter"></i></p>
+                        <p className="btn btn-square btn-light rounded-circle me-2"><i
+                                className="fab fa-facebook-f"></i></p>
+                        <p className="btn btn-square btn-light rounded-circle me-2"><i
+                                className="fab fa-youtube"></i></p> 
+                        <p className="btn btn-square btn-light rounded-circle me-2"><i
+                                className="fab fa-linkedin-in"></i></p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h4 className="  mb-4">Quick Links</h4>
-                    <a className={`btn btn-link text-${textcolor}`} href=""> Us</a>
-                    <a className={`btn btn-link text-${textcolor}`} href="">Contact Us</a>
-                    <a className={`btn btn-link text-${textcolor}`} href="">Our Services</a>
-                    <a className={`btn btn-link text-${textcolor}`} href="">Terms & Condition</a>
-                    <a className={`btn btn-link text-${textcolor}`} href="">Support</a>
+                    <a className={`btn btn-link text-${textcolor}`} href="/"> Us</a>
+                    <a className={`btn btn-link text-${textcolor}`} href="/">Contact Us</a>
+                    <a className={`btn btn-link text-${textcolor}`} href="/">Our Services</a>
+                    <a className={`btn btn-link text-${textcolor}`} href="/">Terms & Condition</a>
+                    <a className={`btn btn-link text-${textcolor}`} href="/">Support</a>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h4 className="  mb-4">Business Hours</h4>
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="container">
             <div className="row">
                 <div className={`col-md-6 text-center  text-md-start mb-3 mb-md-0 text-${textcolor}`}>
-                    &copy; <a className={`fw-medium text-${textcolor} `} href="#">BlogVerse</a>, All Right Reserved.
+                    &copy; <a className={`fw-medium text-${textcolor} `} href="/">BlogVerse</a>, All Right Reserved.
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                     
